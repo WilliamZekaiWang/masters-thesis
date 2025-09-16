@@ -4,12 +4,9 @@
 
 * What is DNA? How does it relate to proteins?
     * How does our body use these proteins for daily function?
-    > Papers on protein regulation
-    > Papers on central dogma?
 * Why do some diseases have a genetic basis?
-    * How can we predict prognosis given DNA seqeunce?
+    * And just as importantly, how do we know there is a genetic basis? Can we predict prognosis given DNA seqeunce?
     * Provide example of cystic fibrosis, tay-sachs etc.
-    > Cite respective papers on cystic fibrosis, Tay–Sachs disease
 * How can we analyze the genome?
     > Papers on seqeuncing technology review
 
@@ -17,7 +14,6 @@
 
 * Why are most diseases not monogenetic?
     * Where are theses SNPs typically located
-    > Papers on monogentic diseases
     > Papers on how most diseases are not monogenetic/provide example of a disease (e.g MS, Cancers, T2 Diabities)
 * How does GWAS look at genotype?
     * why are we not sure which gene each mutation effects
@@ -29,10 +25,9 @@
 * Which SNP in the GWAS is the causitive one?
     * Descibe the profile of SNPs in a locus
     * Why is the profile like this?
-    > maybe paper about LD
-* How do we find causality of GWAS results?
+* How do we assume causality of GWAS results?
     * What considerations/assumptions do we need to make
-    > paper on GWAS
+    * Tie into eQTLs here
 
 ### What are eQTLs
 
@@ -43,7 +38,6 @@
 * What are the differences between cis/trans-eQTLs
     * Why is it hard to find trans-eQTLs?
     * Why can't we just do a bunch of pairwise comparisons?
-    > Trans-eQTL review papers
 
 ### Chromosome Chromosome Conformations
 
