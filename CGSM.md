@@ -1,7 +1,7 @@
 ## Outline
 
 ### Background within the context of current knowledge in the field
-* Human genome is 
+* Humans vary in their genetics, and singular changes in the nucleotide sequence are denoted as SNPs
 * GWAS shows associations between genetic variation and disease
   * Typically screens for thousands of 
 * We don't know mechansism of these SNPs 
@@ -20,16 +20,22 @@
 
 ### Objectives and Hypothesis
 
-**Hypothesis**: trans-eQTLs can be found through incorporating data from chromosome confromation assays.
+**Hypothesis**: We hypothesize we can find trans-eQTLs through bypassing the multiple testing issue of pairwise comparisions from every point of the genome by using targeted regions from chromosome conformation assays.
 
-1. Use data from chromosome conformation assays to determine which parts of the genomes are worth testing
+1. Use data from chromosome conformation assays, Hi-C and 4C, to determine which parts of the genomes are worth testing by finding appropriate thresholds
 2. Incorporate data into GWAS and RNA-seqs to find trans-eQTLs in autoimmune diseases
-3. Develop pipeline?
 
 ### Methods and procedures used
 
-1. 
+1. Download data from ENCODE, GEO, or related databases relating to both Hi-C/4C data relating to autoimmune cells of interest
+   1. Find a way to isolate Hi-C regions of interest that relate to genes of choice
+2. Download the eQTL data for patients of varying autoimmune disease
+3. Harmonize the datasets from the various studies and ensure that they can work together
+4. Develop R scripts to incorporate data into GWAS/RNA-seq data
+   1. What threshold is necessary to deem it a significant interaction worthy of interaction?
+   2. How many SNPs within the region of interest do we test it for?
+   3. What type of multiple test correction?
 
 ### Significance of proposed research in life sciences
 
-1. 
+This will literally change the world.
