@@ -1,4 +1,4 @@
-| Scholarship Name | Due Date | Requirements | Amount | Link | Complete? |
+| Scholarship Name | Due Date | Requirements | Amount | Link | Status? |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| Canada Graduate Research Scholarship – Master’s program (CIHR) | December 1, 2025 | <ul><li>CV</li><li>2 References (academic/research)</li><li>Undergraduate & Graduate Transcript</li><li>Abstract and 1-page proposal with references</li></ul> | $27,000 | [Link](https://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/cgrsm-besrm_eng.asp) |  <input type="checkbox" /> | 
+| Canada Graduate Research Scholarship – Master’s program (CIHR) | December 1, 2025 | <ul><li>CV</li><li>2 References (academic/research)</li><li>Undergraduate & Graduate Transcript</li><li>Abstract and 1-page proposal with references, [format](https://www.nserc-crsng.gc.ca/ResearchPortal-PortailDeRecherche/standards_eng.asp), [subheading 4 for inforamtion](https://www.nserc-crsng.gc.ca/ResearchPortal-PortailDeRecherche/Instructions-Instructions/CGS_M-BESC_M_eng.asp)</li></ul> | $27,000 | [Link](https://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/cgrsm-besrm_eng.asp) |  Not Yet Released by SGS | 
 | | | | | | |

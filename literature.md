@@ -1,13 +1,29 @@
+## GWAS papers
+
+- [x] [Genome-wide association studies](https://www.nature.com/articles/s43586-021-00056-9#Sec1)
+  - nature primer on GWAS in general
+
 ## eQTL Papers
 
 - [x] [Revealing the architecture of gene regulation: the promise of eQTL studies, 2008](https://www.sciencedirect.com/science/article/abs/pii/S0168952508001777?via%3Dihub)
   - Review paper on eQTLs in general. What they are, how they work, limitations and strengths. General information about the difficulties of finding distal eQTLs, and the typical trends seen between cis/trans. 
 
 - [ ] [eQTL studies: from bulk tissues to single cells](https://www.sciencedirect.com/science/article/pii/S1673852723001133)
-  - A more up to date reveiw on eQTLs with additions of single cell RNA-seq
+  - Review that shows the progression of bulk RNAseq to scRNA
+  - States that people mostly focus on cis-eQTLs due to difficulties of trans
 
 - [ ] [The GTEx Consortium atlas of genetic regulatory effects across human tissues](https://www.science.org/doi/full/10.1126/science.aaz1776)
-  - Big study trying to annotate the whole genome
+  - Big study trying to annotate the whole genome for cis-eQTLs and long intergenic noncoding RNA (lincRNA) genes, with respect to tissue type
+  - Power issue!!! Most sig cis-eQTLs were in samples with large cell amounts, 
+  - Found sex-based cis-eQTLs
+
+- [ ] [Single-cell eQTL mapping identifies cell type–specific genetic control of autoimmune disease](https://www.science.org/doi/full/10.1126/science.abf3041)
+  -  OneK1K cohort, which consists of single-cell RNA sequencing (scRNA-seq) data from 1.27 million peripheral blood mononuclear cells (PMBCs) collected from 982 donors DATASET
+
+- [ ] [Large-scale cis- and trans-eQTL analyses identify thousands of genetic loci and polygenic scores that regulate blood gene expression](https://www.nature.com/articles/s41588-021-00913-z)
+  - Large dataset to find cis and trans. 
+  - [ ] [Quantifying genetic effects on disease mediated by assayed gene expression levels](https://pubmed.ncbi.nlm.nih.gov/32424349/)
+    - Cited as how much cis-eQTLs explain disease heritability
 
 ### Trans
 
