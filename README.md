@@ -4,3 +4,4 @@
 - `thesis_structure.md`: An organized workflow of how I want to structure my written thesis
 - `CGSM.md`: The 1 paged written report of CGSM + citations
 - `scholarships.md`: A list of scholarships, requirements, and deadlines
+- `fithic.md`: using fithic.md notes to get significant interactions

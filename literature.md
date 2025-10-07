@@ -5,7 +5,7 @@
 
 ## eQTL Papers
 
-- [x] [Revealing the architecture of gene regulation: the promise of eQTL studies, 2008](https://www.sciencedirect.com/science/article/abs/pii/S0168952508001777?via%3Dihub)
+- [x] [ReCealing the architecture of gene regulation: the promise of eQTL studies, 2008](https://www.sciencedirect.com/science/article/abs/pii/S0168952508001777?via%3Dihub)
   - Review paper on eQTLs in general. What they are, how they work, limitations and strengths. General information about the difficulties of finding distal eQTLs, and the typical trends seen between cis/trans. 
 
 - [ ] [eQTL studies: from bulk tissues to single cells](https://www.sciencedirect.com/science/article/pii/S1673852723001133)
