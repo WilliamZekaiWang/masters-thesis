@@ -8,7 +8,7 @@ with open(infile, 'r') as file, open(outfile, 'w') as output:
     seen = set()
 
     # write header
-    output.write('gene_id' +'\t'+ 'version' +'\t'+ 'chr' +'\t'+ 'TSS\n')
+    output.write('gene_id' +'\t'+ 'version' +'\t'+ 'chr' +'\t'+ 'TSS1' +'\t'+ 'TSS2\n')
 
     for row in file:
         if row[0] != '#': # not meta
@@ -18,7 +18,6 @@ with open(infile, 'r') as file, open(outfile, 'w') as output:
             #regex for gene and id
             gene_id = re.match(r'gene_id "([^"]+)"',row[8]).group(1)
             version = re.match(r'.*gene_version "([^"]+)"',row[8]).group(1)
-
 
             # check if it's a gene
             if row[2] == 'gene' and not gene_id in seen:
@@ -30,4 +29,4 @@ with open(infile, 'r') as file, open(outfile, 'w') as output:
                 else:
                     TSS = 4
                 
-                output.write(gene_id +'\t'+ version +'\t'+ row[0] +'\t'+ row[TSS] +'\n')
+                output.write(gene_id +'\t'+ version +'\t'+ row[0] +'\t'+ str(int(row[TSS]) - 5000) +'\t'+ str(int(row[TSS]) + 5000) + '\n')
